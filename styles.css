@@ -1,0 +1,87 @@
+body{ 
+    background-color:green ; 
+    color: white; 
+
+        
+   
+font-size: 16px;
+font-weight:normal;
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+
+}
+
+
+a
+{color:blue;
+text-decoration:none ;
+
+}
+
+a:hover {
+ text-decoration: underline;
+
+}
+
+a:visited {
+    color:blueviolet
+}
+
+
+
+.avatar { width:500px;
+    border-radius:25px;
+    
+
+}
+.info  { color:bisque;
+    
+    margin-bottom: 0px;
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: uppercase;
+
+ }
+
+@media(max-width:700px) {
+    .info{
+        text-align:center;  
+        display:block;
+
+    } 
+}
+
+
+
+
+
+.info-text {
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+
+/* Box Model */
+ .container {
+    width: 750px;
+    margin:auto
+}
+.social{
+    padding: 15px;
+    
+}
+.list{
+    padding:0 20px;
+    color:red;
+    
+}
+.list li {
+    
+    margin-bottom: 10px;
+}
+
+
+.contact h2 {
+    text-align: center;
+}
+
